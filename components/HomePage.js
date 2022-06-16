@@ -99,7 +99,7 @@ const HomePage = ({ router }) => {
     );
   }, []);
 
-  const isSmallWidth = useMediaQueryWidth(1024);
+  const isSmallWidth = useMediaQueryWidth(700);
   const isSmallestWidth = useMediaQueryWidth(210);
   const isSmallHeight = useMediaQueryHeight(700);
   const isSmallerHeight = useMediaQueryHeight(479);
