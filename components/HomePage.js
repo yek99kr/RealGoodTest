@@ -103,7 +103,7 @@ const HomePage = ({ router }) => {
   const isSmallestWidth = useMediaQueryWidth(210);
   const isSmallHeight = useMediaQueryHeight(700);
   const isSmallerHeight = useMediaQueryHeight(479);
-  const isSmallestHeight = useMediaQueryHeight(350);
+  const isSmallestHeight = useMediaQueryHeight(349);
 
   let hand;
 
