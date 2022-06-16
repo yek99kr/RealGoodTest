@@ -4,7 +4,6 @@ import DragBackground from "./DragBackground";
 import About from "./About";
 import { useState, useCallback, useEffect } from "react";
 import { motion } from "framer-motion";
-import HandMobile from "./HandMobile";
 
 function isTouchDevice() {
   if (typeof window === "undefined") return false;
@@ -104,7 +103,7 @@ const HomePage = ({ router }) => {
   const isSmallestWidth = useMediaQueryWidth(210);
   const isSmallHeight = useMediaQueryHeight(700);
   const isSmallerHeight = useMediaQueryHeight(479);
-  const isSmallestHeight = useMediaQueryHeight(370);
+  const isSmallestHeight = useMediaQueryHeight(350);
 
   let hand;
 
