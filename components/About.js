@@ -107,7 +107,7 @@ const About = (props) => {
   return (
     <>
       {!props.isSmallerHeight ? (
-        <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-[63%] leading-[2] md:leading-[2.2] lg:leading-[1.9] w-[87vw] sm:w-[85vw] md:w-[80vw] lg:w-[75vw] xl:w-[65vw] 2xl:w-[58vw] text-[3vw] 4xs:text-[2.9vw] sm:text-[16px] md:text-[17px] lg:text-[18.5px] xl:text-[19.5px] 2xl:text-[23px] text-center">
+        <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-[63%] leading-[2] md:leading-[2.2] lg:leading-[1.9] w-[87vw] sm:w-[85vw] md:w-[80vw] lg:w-[70vw] xl:w-[65vw] 2xl:w-[58vw] text-[3vw] 4xs:text-[2.9vw] sm:text-[16px] md:text-[17px] lg:text-[18.5px] xl:text-[19.5px] 2xl:text-[23px] text-center">
           <p className="font-[400]">
             We&apos;re{" "}
             <img
